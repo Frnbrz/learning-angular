@@ -1,0 +1,14 @@
+<a
+  [href]="socialMediaElement.link"
+  target="_blank"
+  class="social-media-element"
+  [matTooltip]="socialMediaElement.name"
+>
+  <img
+    width="50"
+    height="50"
+    class="social-media-element__img"
+    [ngSrc]="socialMediaElement.imgPath"
+    [alt]="socialMediaElement.name"
+  />
+</a>

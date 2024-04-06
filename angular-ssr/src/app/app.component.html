@@ -1,0 +1,9 @@
+@defer {
+
+<app-async />
+} @placeholder (minimum 500ms){
+  <p>Loading...</p>
+} @error {
+  <p>Failed to load data</p>
+}
+<router-outlet />
